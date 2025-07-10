@@ -1,109 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Runbook Solutions</title>
+    <title></title>
     <link>//localhost:1313/</link>
-    <description>Recent content on Runbook Solutions</description>
+    <description>Recent content on </description>
     <generator>Hugo</generator>
-    <language>en-us</language>
+    <language>en</language>
     <atom:link href="//localhost:1313/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title></title>
-      <link>//localhost:1313/rates/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/rates/</guid>
-      <description>&lt;h1 id=&#34;consulting-services-rate-sheet&#34;&gt;Consulting Services Rate Sheet&lt;/h1&gt;&#xA;&lt;h2 id=&#34;group-policy-optimization-and-maintenance&#34;&gt;Group Policy Optimization and Maintenance&lt;/h2&gt;&#xA;&lt;table&gt;&#xA;  &lt;thead&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;th&gt;Task&lt;/th&gt;&#xA;          &lt;th&gt;Estimated Rate&lt;/th&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/thead&gt;&#xA;  &lt;tbody&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;Documenting settings&lt;/td&gt;&#xA;          &lt;td&gt;$100–$150/hr or $1,500–$3,000 per domain&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;Speeding up login times&lt;/td&gt;&#xA;          &lt;td&gt;$125–$175/hr or $2,000–$4,000 total&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;Standardization of user-based deployments&lt;/td&gt;&#xA;          &lt;td&gt;$100–$150/hr or $1,500–$3,000 project&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;Cleaning up legacy policies&lt;/td&gt;&#xA;          &lt;td&gt;$125–$175/hr or $2,000–$5,000 total&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/tbody&gt;&#xA;&lt;/table&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;intune-implementation-and-maintenance&#34;&gt;Intune Implementation and Maintenance&lt;/h2&gt;&#xA;&lt;table&gt;&#xA;  &lt;thead&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;th&gt;Task&lt;/th&gt;&#xA;          &lt;th&gt;Estimated Rate&lt;/th&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/thead&gt;&#xA;  &lt;tbody&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;Initial setup (basic config, connectors, roles)&lt;/td&gt;&#xA;          &lt;td&gt;$2,500–$5,000 fixed or $150–$200/hr&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;Implementing standard policies (Windows, Mac, iOS, Android)&lt;/td&gt;&#xA;          &lt;td&gt;$125–$175/hr or $3,000–$7,500 total&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;OS update policies&lt;/td&gt;&#xA;          &lt;td&gt;$750–$1,500 per platform&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/tbody&gt;&#xA;&lt;/table&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;entra-id-implementation-and-maintenance&#34;&gt;Entra ID Implementation and Maintenance&lt;/h2&gt;&#xA;&lt;table&gt;&#xA;  &lt;thead&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;th&gt;Task&lt;/th&gt;&#xA;          &lt;th&gt;Estimated Rate&lt;/th&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/thead&gt;&#xA;  &lt;tbody&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;User account onboarding / hybrid synchronization&lt;/td&gt;&#xA;          &lt;td&gt;$2,000–$4,000 project or $150/hr&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;Standard groups for M365 and Security&lt;/td&gt;&#xA;          &lt;td&gt;$100–$150/hr or $1,000–$2,500 setup&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;Device onboarding / hybrid join configuration&lt;/td&gt;&#xA;          &lt;td&gt;$150–$200/hr or $3,000–$6,000 project&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/tbody&gt;&#xA;&lt;/table&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;endpoint-security-hardening&#34;&gt;Endpoint Security Hardening&lt;/h2&gt;&#xA;&lt;table&gt;&#xA;  &lt;thead&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;th&gt;Task&lt;/th&gt;&#xA;          &lt;th&gt;Estimated Rate&lt;/th&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/thead&gt;&#xA;  &lt;tbody&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;CIS Benchmarks (Windows, Mac, iOS, Android)&lt;/td&gt;&#xA;          &lt;td&gt;$3,000–$6,000 per platform&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;Windows LAPS&lt;/td&gt;&#xA;          &lt;td&gt;$1,000–$2,000 deployment&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;BitLocker&lt;/td&gt;&#xA;          &lt;td&gt;$1,500–$3,000&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;Mac Platform SSO&lt;/td&gt;&#xA;          &lt;td&gt;$2,500–$5,000&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;Defender for Endpoint&lt;/td&gt;&#xA;          &lt;td&gt;$3,000–$6,000 or $150/hr&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;Windows Hello for Business&lt;/td&gt;&#xA;          &lt;td&gt;$2,000–$4,000&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/tbody&gt;&#xA;&lt;/table&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;optional-packages&#34;&gt;Optional Packages&lt;/h2&gt;&#xA;&lt;table&gt;&#xA;  &lt;thead&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;th&gt;Package Name&lt;/th&gt;&#xA;          &lt;th&gt;Description&lt;/th&gt;&#xA;          &lt;th&gt;Estimated Rate&lt;/th&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/thead&gt;&#xA;  &lt;tbody&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;Basic Compliance Package&lt;/td&gt;&#xA;          &lt;td&gt;GPO cleanup, CIS benchmarks, LAPS&lt;/td&gt;&#xA;          &lt;td&gt;$5,000–$8,000&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;Modern Endpoint Onboarding&lt;/td&gt;&#xA;          &lt;td&gt;Intune + Entra ID + BitLocker + WHfB&lt;/td&gt;&#xA;          &lt;td&gt;$8,000–$15,000&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;Full Zero Trust Readiness&lt;/td&gt;&#xA;          &lt;td&gt;All services listed above&lt;/td&gt;&#xA;          &lt;td&gt;$20,000–$30,000+&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/tbody&gt;&#xA;&lt;/table&gt;</description>
-    </item>
-    <item>
-      <title>Elements</title>
-      <link>//localhost:1313/elements/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/elements/</guid>
-      <description>&lt;details class=&#34;table-of-content &#34;&gt;&#xA;  &lt;summary&gt;&#xA;    &#xA;      Table of Contents&#xA;    &#xA;  &lt;/summary&gt;&#xA;  &lt;nav id=&#34;TableOfContents&#34;&gt;&#xA;  &lt;ol&gt;&#xA;    &lt;li&gt;&lt;a href=&#34;#heading-2&#34;&gt;Heading 2&lt;/a&gt;&#xA;      &lt;ol&gt;&#xA;        &lt;li&gt;&lt;a href=&#34;#heading-3&#34;&gt;Heading 3&lt;/a&gt;&#xA;          &lt;ol&gt;&#xA;            &lt;li&gt;&lt;a href=&#34;#heading-4&#34;&gt;Heading 4&lt;/a&gt;&#xA;              &lt;ol&gt;&#xA;                &lt;li&gt;&lt;a href=&#34;#heading-5&#34;&gt;Heading 5&lt;/a&gt;&lt;/li&gt;&#xA;              &lt;/ol&gt;&#xA;            &lt;/li&gt;&#xA;          &lt;/ol&gt;&#xA;        &lt;/li&gt;&#xA;        &lt;li&gt;&lt;a href=&#34;#emphasis&#34;&gt;Emphasis&lt;/a&gt;&lt;/li&gt;&#xA;        &lt;li&gt;&lt;a href=&#34;#button&#34;&gt;Button&lt;/a&gt;&lt;/li&gt;&#xA;        &lt;li&gt;&lt;a href=&#34;#link&#34;&gt;Link&lt;/a&gt;&lt;/li&gt;&#xA;        &lt;li&gt;&lt;a href=&#34;#paragraph&#34;&gt;Paragraph&lt;/a&gt;&lt;/li&gt;&#xA;        &lt;li&gt;&lt;a href=&#34;#ordered-list&#34;&gt;Ordered List&lt;/a&gt;&lt;/li&gt;&#xA;        &lt;li&gt;&lt;a href=&#34;#unordered-list&#34;&gt;Unordered List&lt;/a&gt;&lt;/li&gt;&#xA;        &lt;li&gt;&lt;a href=&#34;#notice&#34;&gt;Notice&lt;/a&gt;&lt;/li&gt;&#xA;        &lt;li&gt;&lt;a href=&#34;#tab&#34;&gt;Tab&lt;/a&gt;&lt;/li&gt;&#xA;        &lt;li&gt;&lt;a href=&#34;#accordions&#34;&gt;Accordions&lt;/a&gt;&lt;/li&gt;&#xA;        &lt;li&gt;&lt;a href=&#34;#code-and-syntax-highlighting&#34;&gt;Code and Syntax Highlighting&lt;/a&gt;&lt;/li&gt;&#xA;        &lt;li&gt;&lt;a href=&#34;#blockquote&#34;&gt;Blockquote&lt;/a&gt;&lt;/li&gt;&#xA;        &lt;li&gt;&lt;a href=&#34;#tables&#34;&gt;Tables&lt;/a&gt;&lt;/li&gt;&#xA;        &lt;li&gt;&lt;a href=&#34;#image&#34;&gt;Image&lt;/a&gt;&lt;/li&gt;&#xA;        &lt;li&gt;&lt;a href=&#34;#gallery&#34;&gt;Gallery&lt;/a&gt;&lt;/li&gt;&#xA;        &lt;li&gt;&lt;a href=&#34;#slider&#34;&gt;Slider&lt;/a&gt;&lt;/li&gt;&#xA;        &lt;li&gt;&lt;a href=&#34;#youtube-video&#34;&gt;Youtube video&lt;/a&gt;&lt;/li&gt;&#xA;        &lt;li&gt;&lt;a href=&#34;#custom-video&#34;&gt;Custom video&lt;/a&gt;&lt;/li&gt;&#xA;      &lt;/ol&gt;&#xA;    &lt;/li&gt;&#xA;  &lt;/ol&gt;&#xA;&lt;/nav&gt;&#xA;&lt;/details&gt;&#xA;&#xA;&lt;p&gt;Here is an example of headings. You can use this heading by the following markdown rules. For example: use &lt;code&gt;#&lt;/code&gt; for heading 1 and use &lt;code&gt;######&lt;/code&gt; for heading 6.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Group Policy</title>
-      <link>//localhost:1313/solutions-grouppolicy/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/solutions-grouppolicy/</guid>
-      <description>&lt;p&gt;Below is a list of the standard solutions that we offer. If your business has other needs, please contact us for a custom quote. All rates below are estimated rates. An agreed upon price and timeline will be provided before any services begin or end.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>John Doe</title>
-      <link>//localhost:1313/authors/john-doe/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/authors/john-doe/</guid>
-      <description>&lt;p&gt;lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostr navigation et dolore magna aliqua.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Microsoft Entra</title>
-      <link>//localhost:1313/solutions-entra/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/solutions-entra/</guid>
-      <description>&lt;p&gt;Below is a list of the standard solutions that we offer. If your business has other needs, please contact us for a custom quote. All rates below are estimated rates. An agreed upon price and timeline will be provided before any services begin or end.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Microsoft Intune</title>
-      <link>//localhost:1313/solutions-intune/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/solutions-intune/</guid>
-      <description>&lt;p&gt;Below is a list of the standard solutions that we offer. If your business has other needs, please contact us for a custom quote. All rates below are estimated rates. An agreed upon price and timeline will be provided before any services begin or end.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Monthly Retainer Packages</title>
-      <link>//localhost:1313/solutions-monthlyretainer/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/solutions-monthlyretainer/</guid>
-      <description>&lt;p&gt;Below is a list of the monthly retainer packages that we offer. If your business has other needs, please contact us for a custom quote. All rates below are estimated rates.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Privacy</title>
-      <link>//localhost:1313/privacy-policy/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/privacy-policy/</guid>
-      <description>&lt;h4 id=&#34;responsibility-of-contributors&#34;&gt;Responsibility of Contributors&lt;/h4&gt;&#xA;&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus, donec nunc eros, ullamcorper id feugiat quisque aliquam sagittis. Sem turpis sed viverra massa gravida pharetra. Non dui dolor potenti eu dignissim fusce. Ultrices amet, in curabitur a arcu a lectus morbi id. Iaculis erat sagittis in tortor cursus. Molestie urna eu tortor, erat scelerisque eget. Nunc hendrerit sed interdum lacus. Lorem quis viverra sed&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Professional Solutions Packages</title>
-      <link>//localhost:1313/solutions-professionalsolutions/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/solutions-professionalsolutions/</guid>
-      <description>&lt;p&gt;Below is a list of the professional solutions packages that we offer. If your business has other needs, please contact us for a custom quote. All rates below are estimated rates.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Ready to build your next project with Hugo?</title>
-      <link></link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid></guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Sam Wilson</title>
-      <link>//localhost:1313/authors/sam-wilson/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/authors/sam-wilson/</guid>
-      <description>&lt;p&gt;lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostr navigation et dolore magna aliqua.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Solutions</title>
-      <link>//localhost:1313/solutions/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/solutions/</guid>
-      <description>&lt;p&gt;Below is a list of the standard solutions that we offer. If your business has other needs, please contact us for a custom quote. All rates below are estimated rates. An agreed upon price and timeline will be provided before any services begin or end.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>What Users Are Saying About Hugoplate</title>
-      <link></link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid></guid>
-      <description></description>
-    </item>
-    <item>
-      <title>William Jacob</title>
-      <link>//localhost:1313/authors/william-jacob/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/authors/william-jacob/</guid>
-      <description>&lt;p&gt;lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostr navigation et dolore magna aliqua.&lt;/p&gt;</description>
-    </item>
   </channel>
 </rss>
