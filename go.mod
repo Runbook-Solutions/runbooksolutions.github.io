@@ -1,8 +1,8 @@
 module hugoplate.netlify
 
-go 1.21
+go 1.23
 
-require github.com/gethugothemes/hugo-modules/accordion  //indirect
+require github.com/gethugothemes/hugo-modules/accordion
 require github.com/gethugothemes/hugo-modules/adsense
 require github.com/gethugothemes/hugo-modules/components/announcement
 require github.com/gethugothemes/hugo-modules/components/cookie-consent
