@@ -2,6 +2,7 @@
 title: "Welcome to Runbook Solutions"
 meta_title: "About"
 description: "About page for Runbook Solutions"
+image: "logo-runbook-main.png"
 draft: false
 ---
 
