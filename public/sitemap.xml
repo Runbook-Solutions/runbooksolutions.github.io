@@ -16,6 +16,8 @@
   </url><url>
     <loc>//localhost:1313/elements/</loc>
   </url><url>
+    <loc>//localhost:1313/solutions-endpointsecurity/</loc>
+  </url><url>
     <loc>//localhost:1313/solutions-grouppolicy/</loc>
   </url><url>
     <loc>//localhost:1313/authors/john-doe/</loc>
