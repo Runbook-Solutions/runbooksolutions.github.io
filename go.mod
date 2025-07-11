@@ -1,29 +1,31 @@
-module github.com/zeon-studio/hugoplate
+module hugoplate.netlify.app
 
-go 1.23
+go 1.21
 
-require github.com/gethugothemes/hugo-modules/accordion v.0
-require github.com/gethugothemes/hugo-modules/adsense v.0
-require github.com/gethugothemes/hugo-modules/components/announcement v.0
-require github.com/gethugothemes/hugo-modules/components/cookie-consent v.0
-require github.com/gethugothemes/hugo-modules/components/custom-script v.0
-require github.com/gethugothemes/hugo-modules/components/preloader v.0
-require github.com/gethugothemes/hugo-modules/components/render-link v.0
-require github.com/gethugothemes/hugo-modules/components/social-share v.0
-require github.com/gethugothemes/hugo-modules/gallery-slider v.0
-require github.com/gethugothemes/hugo-modules/gzip-caching v.0
-require github.com/gethugothemes/hugo-modules/icons/font-awesome v.0
-require github.com/gethugothemes/hugo-modules/images v.0
-require github.com/gethugothemes/hugo-modules/modal v.0
-require github.com/gethugothemes/hugo-modules/pwa v.0
-require github.com/gethugothemes/hugo-modules/search v.0
-require github.com/gethugothemes/hugo-modules/seo-tools/basic-seo v.0
-require github.com/gethugothemes/hugo-modules/seo-tools/google-tag-manager v.0
-require github.com/gethugothemes/hugo-modules/seo-tools/site-verifications v.0
-require github.com/gethugothemes/hugo-modules/shortcodes/button v.0
-require github.com/gethugothemes/hugo-modules/shortcodes/notice v.0
-require github.com/gethugothemes/hugo-modules/tab v.0
-require github.com/gethugothemes/hugo-modules/table-of-contents v.0
-require github.com/gethugothemes/hugo-modules/videos v.0
-require github.com/hugomods/mermaid v.0
-require github.com/zeon-studio/hugoplate v.0
+require (
+	github.com/gethugothemes/hugo-modules/accordion v0.0.0-20250512035231-bb1514d411e2 // indirect
+	github.com/gethugothemes/hugo-modules/adsense v0.0.0-20250512035231-bb1514d411e2 // indirect
+	github.com/gethugothemes/hugo-modules/components/announcement v0.0.0-20250512035231-bb1514d411e2 // indirect
+	github.com/gethugothemes/hugo-modules/components/cookie-consent v0.0.0-20250512035231-bb1514d411e2 // indirect
+	github.com/gethugothemes/hugo-modules/components/custom-script v0.0.0-20250512035231-bb1514d411e2 // indirect
+	github.com/gethugothemes/hugo-modules/components/preloader v0.0.0-20250512035231-bb1514d411e2 // indirect
+	github.com/gethugothemes/hugo-modules/components/render-link v0.0.0-20250512035231-bb1514d411e2 // indirect
+	github.com/gethugothemes/hugo-modules/components/social-share v0.0.0-20250512035231-bb1514d411e2 // indirect
+	github.com/gethugothemes/hugo-modules/gallery-slider v0.0.0-20250512035231-bb1514d411e2 // indirect
+	github.com/gethugothemes/hugo-modules/gzip-caching v0.0.0-20250512035231-bb1514d411e2 // indirect
+	github.com/gethugothemes/hugo-modules/icons/font-awesome v0.0.0-20250512035231-bb1514d411e2 // indirect
+	github.com/gethugothemes/hugo-modules/images v0.0.0-20250512035231-bb1514d411e2 // indirect
+	github.com/gethugothemes/hugo-modules/modal v0.0.0-20250512035231-bb1514d411e2 // indirect
+	github.com/gethugothemes/hugo-modules/pwa v0.0.0-20250512035231-bb1514d411e2 // indirect
+	github.com/gethugothemes/hugo-modules/search v0.0.0-20250512035231-bb1514d411e2 // indirect
+	github.com/gethugothemes/hugo-modules/seo-tools/basic-seo v0.0.0-20250512035231-bb1514d411e2 // indirect
+	github.com/gethugothemes/hugo-modules/seo-tools/google-tag-manager v0.0.0-20250512035231-bb1514d411e2 // indirect
+	github.com/gethugothemes/hugo-modules/seo-tools/site-verifications v0.0.0-20250512035231-bb1514d411e2 // indirect
+	github.com/gethugothemes/hugo-modules/shortcodes/button v0.0.0-20250512035231-bb1514d411e2 // indirect
+	github.com/gethugothemes/hugo-modules/shortcodes/notice v0.0.0-20250512035231-bb1514d411e2 // indirect
+	github.com/gethugothemes/hugo-modules/tab v0.0.0-20250512035231-bb1514d411e2 // indirect
+	github.com/gethugothemes/hugo-modules/table-of-contents v0.0.0-20250512035231-bb1514d411e2 // indirect
+	github.com/gethugothemes/hugo-modules/videos v0.0.0-20250512035231-bb1514d411e2 // indirect
+	github.com/hugomods/mermaid v0.1.4 // indirect
+	github.com/zeon-studio/hugoplate v0.0.0-20250507095558-974f11b1e3ff // indirect
+)
