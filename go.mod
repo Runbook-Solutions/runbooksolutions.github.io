@@ -1,29 +1,29 @@
-module hugoplate.netlify
+module github.com/zeon-studio/hugoplate
 
 go 1.23
 
-require github.com/gethugothemes/hugo-modules/accordion
-require github.com/gethugothemes/hugo-modules/adsense
-require github.com/gethugothemes/hugo-modules/components/announcement
-require github.com/gethugothemes/hugo-modules/components/cookie-consent
-require github.com/gethugothemes/hugo-modules/components/custom-script
-require github.com/gethugothemes/hugo-modules/components/preloader
-require github.com/gethugothemes/hugo-modules/components/render-link
-require github.com/gethugothemes/hugo-modules/components/social-share
-require github.com/gethugothemes/hugo-modules/gallery-slider
-require github.com/gethugothemes/hugo-modules/gzip-caching
-require github.com/gethugothemes/hugo-modules/icons/font-awesome
-require github.com/gethugothemes/hugo-modules/images
-require github.com/gethugothemes/hugo-modules/modal
-require github.com/gethugothemes/hugo-modules/pwa
-require github.com/gethugothemes/hugo-modules/search
-require github.com/gethugothemes/hugo-modules/seo-tools/basic-seo
-require github.com/gethugothemes/hugo-modules/seo-tools/google-tag-manager
-require github.com/gethugothemes/hugo-modules/seo-tools/site-verifications
-require github.com/gethugothemes/hugo-modules/shortcodes/button
-require github.com/gethugothemes/hugo-modules/shortcodes/notice
-require github.com/gethugothemes/hugo-modules/tab
-require github.com/gethugothemes/hugo-modules/table-of-contents
-require github.com/gethugothemes/hugo-modules/videos
-require github.com/hugomods/mermaid
-require github.com/zeon-studio/hugoplate
+require github.com/gethugothemes/hugo-modules/accordion v.0
+require github.com/gethugothemes/hugo-modules/adsense v.0
+require github.com/gethugothemes/hugo-modules/components/announcement v.0
+require github.com/gethugothemes/hugo-modules/components/cookie-consent v.0
+require github.com/gethugothemes/hugo-modules/components/custom-script v.0
+require github.com/gethugothemes/hugo-modules/components/preloader v.0
+require github.com/gethugothemes/hugo-modules/components/render-link v.0
+require github.com/gethugothemes/hugo-modules/components/social-share v.0
+require github.com/gethugothemes/hugo-modules/gallery-slider v.0
+require github.com/gethugothemes/hugo-modules/gzip-caching v.0
+require github.com/gethugothemes/hugo-modules/icons/font-awesome v.0
+require github.com/gethugothemes/hugo-modules/images v.0
+require github.com/gethugothemes/hugo-modules/modal v.0
+require github.com/gethugothemes/hugo-modules/pwa v.0
+require github.com/gethugothemes/hugo-modules/search v.0
+require github.com/gethugothemes/hugo-modules/seo-tools/basic-seo v.0
+require github.com/gethugothemes/hugo-modules/seo-tools/google-tag-manager v.0
+require github.com/gethugothemes/hugo-modules/seo-tools/site-verifications v.0
+require github.com/gethugothemes/hugo-modules/shortcodes/button v.0
+require github.com/gethugothemes/hugo-modules/shortcodes/notice v.0
+require github.com/gethugothemes/hugo-modules/tab v.0
+require github.com/gethugothemes/hugo-modules/table-of-contents v.0
+require github.com/gethugothemes/hugo-modules/videos v.0
+require github.com/hugomods/mermaid v.0
+require github.com/zeon-studio/hugoplate v.0
