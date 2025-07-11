@@ -4,8 +4,44 @@
   <url>
     <loc>//localhost:1313/</loc>
   </url><url>
+    <loc>//localhost:1313/rates/</loc>
+  </url><url>
+    <loc>//localhost:1313/authors/</loc>
+  </url><url>
+    <loc>//localhost:1313/blog/</loc>
+  </url><url>
     <loc>//localhost:1313/categories/</loc>
   </url><url>
+    <loc>//localhost:1313/contact/</loc>
+  </url><url>
+    <loc>//localhost:1313/elements/</loc>
+  </url><url>
+    <loc>//localhost:1313/solutions-grouppolicy/</loc>
+  </url><url>
+    <loc>//localhost:1313/authors/john-doe/</loc>
+  </url><url>
+    <loc>//localhost:1313/solutions-entra/</loc>
+  </url><url>
+    <loc>//localhost:1313/solutions-intune/</loc>
+  </url><url>
+    <loc>//localhost:1313/solutions-monthlyretainer/</loc>
+  </url><url>
+    <loc>//localhost:1313/pages/</loc>
+  </url><url>
+    <loc>//localhost:1313/privacy-policy/</loc>
+  </url><url>
+    <loc>//localhost:1313/solutions-professionalsolutions/</loc>
+  </url><url>
+    <loc>//localhost:1313/authors/sam-wilson/</loc>
+  </url><url>
+    <loc>//localhost:1313/sections/</loc>
+  </url><url>
+    <loc>//localhost:1313/solutions/</loc>
+  </url><url>
     <loc>//localhost:1313/tags/</loc>
+  </url><url>
+    <loc>//localhost:1313/about/</loc>
+  </url><url>
+    <loc>//localhost:1313/authors/william-jacob/</loc>
   </url>
 </urlset>
