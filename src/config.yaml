@@ -1,0 +1,65 @@
+site:
+  name: Runbook Solutions
+  site: 'https://runbooksolutions.com'
+  base: '/'
+  trailingSlash: false
+
+metadata:
+  title:
+    default: Runbook Solutions
+    template: '%s — Runbook Solutions'
+  description: 'Modern endpoint management consulting. Microsoft Intune, Entra ID, Group Policy optimization, and endpoint security hardening.'
+  robots:
+    index: true
+    follow: true
+  openGraph:
+    site_name: Runbook Solutions
+    images:
+      - url: '~/assets/images/default.png'
+        width: 1200
+        height: 628
+    type: website
+
+i18n:
+  language: en
+  textDirection: ltr
+
+apps:
+  blog:
+    isEnabled: true
+    postsPerPage: 6
+
+    post:
+      isEnabled: true
+      permalink: '/%slug%'
+      robots:
+        index: true
+
+    list:
+      isEnabled: true
+      pathname: 'blog'
+      robots:
+        index: true
+
+    category:
+      isEnabled: true
+      pathname: 'category'
+      robots:
+        index: true
+
+    tag:
+      isEnabled: true
+      pathname: 'tag'
+      robots:
+        index: false
+
+    isRelatedPostsEnabled: true
+    relatedPostsCount: 4
+
+analytics:
+  vendors:
+    googleAnalytics:
+      id: null
+
+ui:
+  theme: 'dark'

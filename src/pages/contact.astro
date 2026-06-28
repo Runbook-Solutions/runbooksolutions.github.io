@@ -1,0 +1,56 @@
+---
+import Layout from '~/layouts/PageLayout.astro';
+import HeroText from '~/components/widgets/HeroText.astro';
+import ContactUs from '~/components/widgets/Contact.astro';
+import Features2 from '~/components/widgets/Features2.astro';
+
+const metadata = {
+  title: 'Contact',
+};
+---
+
+<Layout metadata={metadata}>
+  <HeroText tagline="Contact" title="Let's talk about your endpoints." />
+
+  <ContactUs
+    id="form"
+    title="Send us a message"
+    subtitle="Tell us about your environment and what you're looking to accomplish. We'll get back to you within one business day."
+    inputs={[
+      {
+        type: 'text',
+        name: 'name',
+        label: 'Name',
+      },
+      {
+        type: 'email',
+        name: 'email',
+        label: 'Email',
+      },
+    ]}
+    textarea={{
+      label: 'Message',
+    }}
+    disclaimer={{
+      label:
+        'By submitting this contact form, you acknowledge and agree to the collection of your personal information.',
+    }}
+    description="We typically respond within one business day."
+  />
+
+  <Features2
+    title="Other ways to reach us"
+    items={[
+      {
+        title: 'Email',
+        description: 'contact@runbooksolutions.com',
+        icon: 'tabler:mail',
+      },
+      {
+        title: 'LinkedIn',
+        description: 'Connect with us on LinkedIn',
+        icon: 'tabler:brand-linkedin',
+      },
+    ]}
+  />
+</Layout>
