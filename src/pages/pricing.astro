@@ -1,0 +1,180 @@
+---
+import Layout from '~/layouts/PageLayout.astro';
+import HeroText from '~/components/widgets/HeroText.astro';
+import Prices from '~/components/widgets/Pricing.astro';
+import FAQs from '~/components/widgets/FAQs.astro';
+import CallToAction from '~/components/widgets/CallToAction.astro';
+
+const metadata = {
+  title: 'Pricing',
+};
+---
+
+<Layout metadata={metadata}>
+  <HeroText
+    tagline="Pricing"
+    title="Project-Based Engagements"
+    subtitle="Scoped projects with a defined timeline and fixed pricing. All rates are estimated — an agreed-upon price is provided before any work begins."
+  />
+
+  <Prices
+    prices={[
+      {
+        title: 'Essentials',
+        subtitle: 'Group Policy modernization',
+        price: '8,000',
+        period: 'starting at',
+        items: [
+          { description: 'GPO documentation & cleanup' },
+          { description: 'Login time optimization' },
+          { description: 'Standardize user-based deployments' },
+          { description: 'CIS benchmark implementation' },
+          { description: 'Legacy policy remediation' },
+        ],
+        callToAction: {
+          text: 'Get started',
+          href: '/contact',
+        },
+      },
+      {
+        title: 'Growth',
+        subtitle: 'Full cloud endpoint management',
+        price: '20,000',
+        period: 'starting at',
+        items: [
+          { description: 'Microsoft Intune setup & policies' },
+          { description: 'Entra ID configuration' },
+          { description: 'Autopilot deployment' },
+          { description: 'Endpoint security hardening' },
+          { description: 'BitLocker, LAPS, WHfB' },
+          { description: 'Defender for Endpoint' },
+          { description: 'CIS benchmarks (all platforms)' },
+        ],
+        callToAction: {
+          text: 'Get started',
+          href: '/contact',
+        },
+        hasRibbon: true,
+        ribbonTitle: 'Most Popular',
+      },
+      {
+        title: 'Enterprise',
+        subtitle: 'Complete hybrid modernization',
+        price: '30,000',
+        period: 'starting at',
+        items: [
+          { description: 'Everything in Growth' },
+          { description: 'Group Policy optimization' },
+          { description: 'Hybrid identity setup' },
+          { description: 'Mac Platform SSO' },
+          { description: 'Cross-platform management' },
+          { description: 'Full documentation & handoff' },
+        ],
+        callToAction: {
+          text: 'Book a call',
+          href: '/contact',
+        },
+      },
+    ]}
+  />
+
+  <HeroText
+    tagline="Managed Services"
+    title="Monthly Retainer Packages"
+    subtitle="Ongoing management of your endpoint environment. Weekly evaluations, policy updates, and enhancement requests included."
+  />
+
+  <Prices
+    prices={[
+      {
+        title: 'Group Policy',
+        subtitle: 'GPO management',
+        price: '2,000',
+        period: 'per month',
+        items: [
+          { description: 'Weekly GPO evaluation' },
+          { description: 'Policy enhancement requests' },
+          { description: 'New policy deployments' },
+        ],
+        callToAction: {
+          text: 'Get started',
+          href: '/contact',
+        },
+      },
+      {
+        title: 'Intune + Entra',
+        subtitle: 'Cloud endpoint management',
+        price: '5,000',
+        period: 'per month',
+        items: [
+          { description: 'Weekly Intune evaluation' },
+          { description: 'Entra ID management' },
+          { description: 'Policy updates & enhancements' },
+          { description: 'New device onboarding support' },
+        ],
+        callToAction: {
+          text: 'Get started',
+          href: '/contact',
+        },
+        hasRibbon: true,
+        ribbonTitle: 'Popular',
+      },
+      {
+        title: 'Full Stack',
+        subtitle: 'Everything managed',
+        price: '10,000',
+        period: 'per month',
+        items: [
+          { description: 'Group Policy management' },
+          { description: 'Intune + Entra ID management' },
+          { description: 'Endpoint security oversight' },
+          { description: 'Priority support' },
+          { description: 'All enhancement requests' },
+        ],
+        callToAction: {
+          text: 'Book a call',
+          href: '/contact',
+        },
+      },
+    ]}
+  />
+
+  <FAQs
+    title="Pricing FAQs"
+    columns={1}
+    items={[
+      {
+        title: 'How is project pricing determined?',
+        description:
+          'We scope every engagement individually based on the complexity and size of your environment. The prices shown are starting points — you receive a fixed quote before any work begins.',
+      },
+      {
+        title: 'What does a monthly retainer include?',
+        description:
+          'Retainers include weekly evaluation of your environment, implementation of policy updates, handling enhancement requests, and proactive recommendations for improving your endpoint posture.',
+      },
+      {
+        title: 'Can I start with a project and move to a retainer?',
+        description:
+          'Absolutely. Many clients begin with a project-based engagement to modernize their infrastructure, then transition to a monthly retainer for ongoing management.',
+      },
+      {
+        title: 'Do you offer custom packages?',
+        description:
+          'Yes. If your needs don\'t fit neatly into these tiers, contact us for a custom quote tailored to your environment.',
+      },
+    ]}
+  />
+
+  <CallToAction
+    actions={[
+      {
+        variant: 'primary',
+        text: 'Schedule a Discovery Call',
+        href: '/contact',
+      },
+    ]}
+    title="Not sure which plan is right?"
+    subtitle="Let's talk about your environment and find the best fit."
+  />
+</Layout>

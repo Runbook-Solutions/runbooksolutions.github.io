@@ -1,0 +1,160 @@
+---
+import Layout from '~/layouts/PageLayout.astro';
+import HeroText from '~/components/widgets/HeroText.astro';
+import Features from '~/components/widgets/Features.astro';
+import Features2 from '~/components/widgets/Features2.astro';
+import Features3 from '~/components/widgets/Features3.astro';
+import CallToAction from '~/components/widgets/CallToAction.astro';
+
+const metadata = {
+  title: 'Solutions',
+};
+---
+
+<Layout metadata={metadata}>
+  <HeroText
+    tagline="Solutions"
+    title="Endpoint management across the Microsoft ecosystem"
+    subtitle="From legacy Group Policy environments to fully modern cloud-managed endpoints. We help you get there — with project-based engagements or ongoing managed services."
+  />
+
+  <Features
+    id="group-policy"
+    tagline="On-Premises"
+    title="Group Policy"
+    subtitle="Optimize, document, and modernize your Group Policy infrastructure. Whether you're staying on-prem or planning a migration to Intune, clean GPOs are the foundation."
+    items={[
+      {
+        title: 'Policy Documentation',
+        description: 'Comprehensive documentation of all existing GPO settings across your domains.',
+        icon: 'tabler:file-text',
+      },
+      {
+        title: 'Login Time Optimization',
+        description: 'Identify and remediate policies causing slow logins, improving end-user experience.',
+        icon: 'tabler:clock-bolt',
+      },
+      {
+        title: 'Legacy Policy Cleanup',
+        description: 'Remove outdated, conflicting, and redundant policies that create management overhead.',
+        icon: 'tabler:trash',
+      },
+      {
+        title: 'Standardized Deployments',
+        description: 'Consistent printer, drive mapping, and application deployments via Group Policy.',
+        icon: 'tabler:layout-grid',
+      },
+    ]}
+  />
+
+  <Features
+    id="intune"
+    tagline="Cloud Management"
+    title="Microsoft Intune"
+    subtitle="Full MDM setup and management. From initial configuration to Autopilot deployment, we handle every aspect of your Intune environment across Windows, macOS, iOS, and Android."
+    items={[
+      {
+        title: 'Initial Setup & Configuration',
+        description: 'Connectors, roles, compliance policies, and baseline configuration for your tenant.',
+        icon: 'tabler:settings',
+      },
+      {
+        title: 'Autopilot',
+        description: 'Zero-touch deployment for new devices — users receive a fully configured machine out of the box.',
+        icon: 'tabler:rocket',
+      },
+      {
+        title: 'Cross-Platform Policies',
+        description: 'Policy implementation for Windows, macOS, iOS, and Android devices.',
+        icon: 'tabler:devices',
+      },
+      {
+        title: 'OS Update Management',
+        description: 'Update rings, feature updates, and compliance enforcement across all platforms.',
+        icon: 'tabler:refresh',
+      },
+    ]}
+  >
+    <Fragment slot="bg">
+      <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
+    </Fragment>
+  </Features>
+
+  <Features
+    id="entra"
+    tagline="Identity"
+    title="Entra ID"
+    subtitle="Modern identity management. User onboarding, device registration, and access control through Microsoft Entra ID."
+    items={[
+      {
+        title: 'User Onboarding & Hybrid Sync',
+        description: 'Seamless user provisioning with hybrid identity synchronization between on-prem AD and Entra ID.',
+        icon: 'tabler:users-plus',
+      },
+      {
+        title: 'Security Groups & M365',
+        description: 'Structured security and M365 groups for consistent access control and license assignment.',
+        icon: 'tabler:users-group',
+      },
+      {
+        title: 'Device Join & Hybrid Join',
+        description: 'Configure Entra join or hybrid join for device identity and conditional access.',
+        icon: 'tabler:device-laptop',
+      },
+      {
+        title: 'Conditional Access',
+        description: 'Policy-based access controls that enforce security requirements before granting access to resources.',
+        icon: 'tabler:lock-access',
+      },
+    ]}
+  />
+
+  <Features
+    id="endpoint-security"
+    tagline="Security"
+    title="Endpoint Security"
+    subtitle="Harden your endpoints with industry-standard security controls. From CIS benchmarks to Defender for Endpoint, we implement defense in depth."
+    items={[
+      {
+        title: 'CIS Benchmarks',
+        description: 'Industry-standard security baselines for Windows, macOS, iOS, and Android.',
+        icon: 'tabler:checklist',
+      },
+      {
+        title: 'Windows LAPS & BitLocker',
+        description: 'Local admin password management and full-disk encryption with cloud key escrow.',
+        icon: 'tabler:key',
+      },
+      {
+        title: 'Defender for Endpoint',
+        description: 'Enterprise EDR deployment and configuration for threat detection and response.',
+        icon: 'tabler:shield-check',
+      },
+      {
+        title: 'Windows Hello & Mac Platform SSO',
+        description: 'Passwordless authentication for Windows and single sign-on for macOS devices.',
+        icon: 'tabler:fingerprint',
+      },
+    ]}
+  >
+    <Fragment slot="bg">
+      <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
+    </Fragment>
+  </Features>
+
+  <CallToAction
+    actions={[
+      {
+        variant: 'primary',
+        text: 'View Pricing',
+        href: '/pricing',
+      },
+      {
+        text: 'Contact Us',
+        href: '/contact',
+      },
+    ]}
+    title="Ready to get started?"
+    subtitle="Every engagement begins with a discovery call. Let's talk about your environment."
+  />
+</Layout>

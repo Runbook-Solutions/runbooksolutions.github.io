@@ -1,0 +1,92 @@
+---
+import Hero from '~/components/widgets/Hero.astro';
+import Stats from '~/components/widgets/Stats.astro';
+import Steps2 from '~/components/widgets/Steps2.astro';
+import CallToAction from '~/components/widgets/CallToAction.astro';
+import Layout from '~/layouts/PageLayout.astro';
+
+const metadata = {
+  title: 'About',
+};
+---
+
+<Layout metadata={metadata}>
+  <Hero
+    tagline="About"
+  >
+    <Fragment slot="title">
+      Modern endpoint management,<br />
+      <span class="text-accent dark:text-white">built on 12 years of experience.</span>
+    </Fragment>
+
+    <Fragment slot="subtitle">
+      Runbook Solutions LLC was founded in 2025 to help businesses modernize their endpoint infrastructure.
+      With over 12 years working in the endpoint space — from Group Policy optimization to Microsoft Intune
+      and Entra ID — we bring deep expertise to every engagement. Our focus is on delivering secure,
+      well-managed endpoints that balance security with usability.
+    </Fragment>
+  </Hero>
+
+  <Stats
+    stats={[
+      { title: 'Years in Endpoint Management', amount: '12+' },
+      { title: 'Founded', amount: '2025' },
+      { title: 'Platforms', amount: '4' },
+    ]}
+  />
+
+  <Steps2
+    title="What sets us apart"
+    items={[
+      {
+        title: 'Deep specialization',
+        description:
+          'We focus exclusively on the Microsoft endpoint ecosystem — Group Policy, Intune, Entra ID, and endpoint security. This isn\'t a side offering; it\'s all we do.',
+      },
+      {
+        title: 'Enterprise experience, consulting flexibility',
+        description:
+          'Over a decade of implementing solutions for medium and large businesses, delivered with the responsiveness and personal attention of an independent consultant.',
+      },
+      {
+        title: 'Transparent pricing, defined scope',
+        description:
+          'Every engagement comes with a clear scope, timeline, and agreed-upon price before work begins. No surprises, no scope creep.',
+      },
+    ]}
+  />
+
+  <Steps2
+    title="Certifications & Credentials"
+    isReversed={true}
+    items={[
+      {
+        title: 'Microsoft 365 Certified: Endpoint Administrator Associate',
+        description: 'Validated expertise in managing and securing endpoints with Microsoft Intune and related technologies.',
+        icon: 'tabler:certificate',
+      },
+      {
+        title: '12+ years of enterprise experience',
+        description: 'Proven track record implementing endpoint solutions for medium and large organizations.',
+        icon: 'tabler:briefcase',
+      },
+      {
+        title: 'Cross-platform expertise',
+        description: 'Windows, macOS, iOS, and Android — we manage endpoints across every major platform.',
+        icon: 'tabler:devices',
+      },
+    ]}
+  />
+
+  <CallToAction
+    actions={[
+      {
+        variant: 'primary',
+        text: 'Get in Touch',
+        href: '/contact',
+      },
+    ]}
+    title="Let's work together"
+    subtitle="Whether you need a one-time project or ongoing managed services, we're here to help modernize your endpoint infrastructure."
+  />
+</Layout>

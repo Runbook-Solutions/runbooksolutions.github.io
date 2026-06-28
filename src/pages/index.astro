@@ -1,0 +1,159 @@
+---
+import Layout from '~/layouts/PageLayout.astro';
+
+import Hero from '~/components/widgets/Hero.astro';
+import Features from '~/components/widgets/Features.astro';
+import Stats from '~/components/widgets/Stats.astro';
+import Steps from '~/components/widgets/Steps.astro';
+import FAQs from '~/components/widgets/FAQs.astro';
+import CallToAction from '~/components/widgets/CallToAction.astro';
+
+const metadata = {
+  title: 'Runbook Solutions — Modern Endpoint Management Consulting',
+  ignoreTitleTemplate: true,
+};
+---
+
+<Layout metadata={metadata}>
+  <Hero
+    actions={[
+      {
+        variant: 'primary',
+        text: 'Book a Discovery Call',
+        href: '/contact',
+        icon: 'tabler:calendar',
+      },
+      { text: 'View Pricing', href: '/pricing' },
+    ]}
+  >
+    <Fragment slot="title">
+      Your endpoints.<br />
+      <span class="text-accent dark:text-white">Hardened. Managed. Modern.</span>
+    </Fragment>
+
+    <Fragment slot="subtitle">
+      We help businesses modernize their Microsoft endpoint infrastructure.
+      From Group Policy optimization to full Intune deployments, Entra ID, and endpoint security hardening.
+    </Fragment>
+  </Hero>
+
+  <Stats
+    stats={[
+      { title: 'Years Experience', amount: '12+' },
+      { title: 'Microsoft Certified', amount: '✓' },
+      { title: 'Platforms Supported', amount: '4' },
+    ]}
+  />
+
+  <Features
+    id="features"
+    tagline="What We Do"
+    title="Endpoint management, done right"
+    subtitle="We specialize in the Microsoft endpoint ecosystem — from legacy Group Policy to modern cloud-managed infrastructure."
+    items={[
+      {
+        title: 'Group Policy Optimization',
+        description:
+          'Clean up legacy GPOs, document settings, speed up login times, and standardize deployments across your Active Directory environment.',
+        icon: 'tabler:settings',
+      },
+      {
+        title: 'Microsoft Intune',
+        description:
+          'Full MDM setup and management across Windows, macOS, iOS, and Android. Autopilot, compliance policies, and app deployment.',
+        icon: 'tabler:device-laptop',
+      },
+      {
+        title: 'Entra ID',
+        description:
+          'User onboarding, hybrid identity, device join configuration, security groups, and conditional access policies.',
+        icon: 'tabler:users',
+      },
+      {
+        title: 'Endpoint Security',
+        description:
+          'CIS benchmark implementation, Windows LAPS, BitLocker, Defender for Endpoint, Windows Hello for Business, and Mac Platform SSO.',
+        icon: 'tabler:shield-lock',
+      },
+    ]}
+  />
+
+  <Steps
+    title="How we work"
+    items={[
+      {
+        title: 'Step 1: <span class="font-medium">Discovery Call</span>',
+        description:
+          'We learn about your environment, challenges, and goals. No commitment — just a conversation about what modern endpoint management could look like for your organization.',
+        icon: 'tabler:phone',
+      },
+      {
+        title: 'Step 2: <span class="font-medium">Environment Audit</span>',
+        description:
+          'We assess your current infrastructure — Active Directory, Group Policy, Intune readiness, identity setup, and security posture.',
+        icon: 'tabler:search',
+      },
+      {
+        title: 'Step 3: <span class="font-medium">Scoped Proposal</span>',
+        description:
+          'You receive a clear proposal with defined scope, timeline, and pricing. No surprises. An agreed-upon price before any work begins.',
+        icon: 'tabler:file-text',
+      },
+      {
+        title: 'Step 4: <span class="font-medium">Implementation & Handoff</span>',
+        description:
+          'We implement the solution, document everything, and ensure your team is equipped to maintain it going forward.',
+        icon: 'tabler:check',
+      },
+    ]}
+  />
+
+  <FAQs
+    title="Frequently Asked Questions"
+    tagline="FAQs"
+    classes={{ container: 'max-w-6xl' }}
+    items={[
+      {
+        title: 'What size companies do you work with?',
+        description:
+          'We primarily work with medium and large businesses that need to modernize their endpoint infrastructure but may not have the internal IT resources to do it themselves.',
+      },
+      {
+        title: 'Do you offer ongoing managed services?',
+        description:
+          'Yes. In addition to project-based work, we offer monthly retainer packages for ongoing management of your Intune, Entra ID, Group Policy, and endpoint security environments.',
+      },
+      {
+        title: 'What certifications do you hold?',
+        description:
+          'Our lead engineer is a Microsoft 365 Certified: Endpoint Administrator Associate with over 12 years of enterprise experience.',
+      },
+      {
+        title: 'Can you help us migrate from Group Policy to Intune?',
+        description:
+          'Absolutely. This is one of our core specialties. We have proven methods to optimize Group Policy first, then transition to Intune in a way that minimizes disruption.',
+      },
+      {
+        title: 'How is pricing structured?',
+        description:
+          'We offer both project-based engagements with fixed pricing and monthly managed service retainers. All pricing is agreed upon before work begins — no surprises.',
+      },
+    ]}
+  />
+
+  <CallToAction
+    actions={[
+      {
+        variant: 'primary',
+        text: 'Schedule a Conversation',
+        href: '/contact',
+        icon: 'tabler:arrow-right',
+      },
+    ]}
+  >
+    <Fragment slot="title">Ready to modernize?</Fragment>
+    <Fragment slot="subtitle">
+      Let's talk about your endpoint infrastructure and how we can help.
+    </Fragment>
+  </CallToAction>
+</Layout>
